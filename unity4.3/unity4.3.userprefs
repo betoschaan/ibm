@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MaterialUpdater.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MaterialUpdater.cs">
     <Files>
-      <File FileName="Assets/Scripts/Rotate.cs" Line="2" Column="5" />
-      <File FileName="Assets/Skin Shaders/SkinBumped.shader" Line="1" Column="1" />
-      <File FileName="Assets/MaterialUpdater.cs" Line="36" Column="4" />
+      <File FileName="Assets/Scripts/MaterialUpdater.cs" Line="25" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -8,40 +8,39 @@ public class MaterialUpdater : MonoBehaviour {
 
 	public int y;
 
+	public GameObject camera;
+
+	private bool isZoom = false;
+
+	public GameObject model;
+
 	// Use this for initialization
 	void Start () {
 
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 
 	}
 
-	void OnGUI(){
-
-		if(GUI.Button(new Rect(Screen.width - 150, Screen.height - 50, 50,25), ">>")){
-			y++;
-			if(y >= materials.Length)
+	void OnGUI()
+	{
+		if(GUI.Button(new Rect(10,10, 100, 50), "Zoom"))
+		{
+			if(!isZoom)
 			{
-				y = 0;
+				camera.transform.position = new Vector3(camera.transform.position.x, camera.transform.position.y, -7.15f);
+				isZoom = true;
 			}
-			for(int i = 0; i < cloths.Length; i++){
-				cloths[i].material = materials[y];
-			}
-			
-		}
-
-		if(GUI.Button(new Rect(100, Screen.height - 50, 50,25), "<<")){
-			y--;
-			if(y < 0)
+			else
 			{
-				y = materials.Length - 1;
-			}
-			for(int i = 0; i < cloths.Length; i++){
-				cloths[i].material = materials[y];
+				camera.transform.position = new Vector3(camera.transform.position.x, camera.transform.position.y, -8f);
+				isZoom = false;
 			}
 
 		}
 	}
+
 }

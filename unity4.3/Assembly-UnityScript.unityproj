@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_1;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -49,6 +49,7 @@
      <Compile Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\BloomAndFlares.js" />
      <Compile Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\DepthOfField.js" />
      <Compile Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\LuminanceEdgeBlur.js" />
+     <None Include="Assets\PreIntegratedSkinShader\PreIntegratedSkinShaderSM3.shader" />
      <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlur.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Specular.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -91,6 +92,7 @@
      <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular.shader" />
+     <None Include="Assets\PreIntegratedSkinShader\PreIntegratedSkinShaderCommon.cginc" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Diffuse.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
@@ -102,6 +104,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\Shader\Skin Shaders\SkinSpecular.shader" />
+     <None Include="Assets\PreIntegratedSkinShader\PreIntegratedSkinShaderSM2_1DirSH.shader" />
      <None Include="Assets\AdvancedHairShaderPack\shaders\Aniso_Kajiya.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Diffuse.shader" />
      <None Include="Assets\Shader\WomanHair.shader" />
@@ -161,6 +164,7 @@
      <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Bump.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\PreIntegratedSkinShader\PreIntegratedSkinShaderSM5.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
      <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Diffuse.shader" />
@@ -206,6 +210,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
      <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Bump.shader" />
+     <None Include="Assets\PreIntegratedSkinShader\PreIntegratedSkinShaderSM2.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
      <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent.shader" />
      <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Diffuse.shader" />
