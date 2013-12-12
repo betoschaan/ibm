@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: 9b3cdf0b829b1445196208b639e547c6
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: bot__o_paltic
+    100002: bot__o_paltic_MeshPart0
+    100004: bot__o_paltic_MeshPart1
+    100006: Camera001
+    100008: Camera001.Target
+    100010: cloth
+    100012: cloth_MeshPart0
+    100014: cloth_MeshPart1
+    100016: corpo
+    100018: corpo_MeshPart0
+    100020: corpo_MeshPart1
+    100022: linha
+    100024: linha2
+    100026: //RootNode
+    400000: bot__o_paltic
+    400002: bot__o_paltic_MeshPart0
+    400004: bot__o_paltic_MeshPart1
+    400006: Camera001
+    400008: Camera001.Target
+    400010: cloth
+    400012: cloth_MeshPart0
+    400014: cloth_MeshPart1
+    400016: corpo
+    400018: corpo_MeshPart0
+    400020: corpo_MeshPart1
+    400022: linha
+    400024: linha2
+    400026: //RootNode
+    2300000: bot__o_paltic_MeshPart0
+    2300002: bot__o_paltic_MeshPart1
+    2300004: cloth_MeshPart0
+    2300006: cloth_MeshPart1
+    2300008: corpo_MeshPart0
+    2300010: corpo_MeshPart1
+    2300012: linha
+    2300014: linha2
+    3300000: bot__o_paltic_MeshPart0
+    3300002: bot__o_paltic_MeshPart1
+    3300004: cloth_MeshPart0
+    3300006: cloth_MeshPart1
+    3300008: corpo_MeshPart0
+    3300010: corpo_MeshPart1
+    3300012: linha
+    3300014: linha2
+    4300000: corpo_MeshPart0
+    4300002: corpo_MeshPart1
+    4300004: cloth_MeshPart0
+    4300006: cloth_MeshPart1
+    4300008: linha2
+    4300010: bot__o_paltic_MeshPart0
+    4300012: bot__o_paltic_MeshPart1
+    4300014: linha
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
